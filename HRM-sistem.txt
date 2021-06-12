@@ -1,0 +1,28 @@
+Pokretanje i instalacija. 
+
+Prije nego pokrenete projekat potrebno je da na Vašoj lokalnoj mašini imate instalirano 
+
+1. Web preglednik (Google Chrome, Opera ...)
+2. Xampp, Wamp, ... (link za download : https://www.apachefriends.org/download.html)
+3. Nakon što instalirate ili pokrenete XAMPP potrebno je podignuti dva servera i to Apache server koji radi na portu 80,443 i MySQl sever koji radi na portu 3306
+
+Kako biste mogli da pokrenete naš projekat potrebno je da ispunite par jednostavnih koraka: 
+
+1. Kliko na link ______________ otvara Vam se github stranica i omogućava Vam se da odaberete opciju "Download as ZIP"
+2. Datoteku koja je skinuta na Vaš računar prebacite u "htdocs" folder koje se nalazi unutar "xampp" datoteke smještene na C disku
+3. Potrebno je otvoriti web lokaciju sa linka http://localhost/phpmyadmin/server_databases.php?server=1 i kreiramo bazu podataka pod nazivom "multi_login"
+4. Nakon kreirane baze potrebno je kliknuti na ikonicu "import" te učitati .sql datoteku koja se nalazi u folderu koji ste preuzeli s github-a
+5. Naša aplikacija je spremna za korištenje i dostupna na linku:  http://localhost/HRMsistem/login.php na vašoj lokalnoj mašini 
+ 
+
+Pristupni podaci: 
+
+Da biste se prijavili kao administrator koristite kredencijale: 
+
+korisničko ime: nejra
+šifra: nejra123
+
+Da biste se prijavili kao korisnik koristite kredencijale: 
+
+korisničko ime: alem
+šifra: alem123
